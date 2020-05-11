@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <title>My Suburb</title>
+</head>
+<body>
+
+<!------------------------------ HEADER----------------------------------------------->
+  <header class="main">
+      <nav id="navbar">
+        <h3><a href="index.html">Suburb</a></h3>
+        <ul>
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#more">Facilities</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+
+      <div id="home">
+      <div id="header-wrapper">
+        <div id="header-content">
+            <h1>Welcome to <span id="suburb-name">"this suburb"</span> </h1>
+            <p><em>This is supporting statement</em></p>
+            <button id="about-btn"><a href="#about">About</a></button>
+            <button id="contact-btn"><a href="#contact">Contact</a></button>
+        </div>
+      </div>
+    </div>
+</header>
+<!------------------------------- ABOUT SECTION------------------------->
+<div id="about">
+    <div id="about-wrapper">
+        <div id="about-header">
+            <h1>About </h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, officia quisquam. Ducimus quos minima provident perferendis obcaecati, fugiat possimus doloremque dolorem deleniti dolore voluptatum eius. Quia saepe aperiam facilis officia!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. fugiat possimus doloremque dolorem deleniti dolore voluptatum eius. Quia saepe aperiam facilis officia!
+                
+            </p>
+        </div>
+        <div id="about-img-wrapper">
+            <img src="images/house.jpg" width="400px" height="300px">
+            <button><a href="#more">More</a></button>
+        </div>
+    </div>
+</div>
+<!---------------------------   MORE ------------------------------->
+<div id="more">
+    <h1>All you need to know...</h1>
+    <div class="more-content">
+        <h2>Facilities</h2>
+        <p>Schooling, hospital haru ko barey ma</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, cum consectetur corporis sit repellat non tenetur, molestias deleniti, animi ea praesentium. Ea beatae autem, id assumenda nihil nobis temporibus illo?</p>
+    </div>
+    <div class="more-content">
+        <h2>Neighbours</h2>
+        <p>Hasta khelta chimeko haru</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, cum consectetur corporis sit repellat non tenetur, molestias deleniti, animi ea praesentium. Ea beatae autem, id assumenda nihil nobis temporibus illo?</p>
+    </div>
+    <div class="more-content">
+        <h2>Environment</h2>
+        <p>Taja hawa and stuff</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, cum consectetur corporis sit repellat non tenetur, molestias deleniti, animi ea praesentium. Ea beatae autem, id assumenda nihil nobis temporibus illo?</p>
+    </div>
+    <div class="more-content">
+        <h2>Climate</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, cum consectetur corporis sit repellat non tenetur, molestias deleniti, animi ea praesentium. Ea beatae autem, id assumenda nihil nobis temporibus illo?</p>
+    </div>
+    <div id="btn-group">
+        <button id="gallery-btn"><a href="#gallery" >Gallery</a></button>
+
+    </div>
+
+</div>
+
+<!------------------------------ IMAGE GALLERY ------------------------------------------>
+<div id="gallery">
+    <h1>Image Gallery</h1>
+    <div id="gallery-grid">
+    <div id="photos">
+        <a href="images/house.jpg" target="_blank"><img src="images/house.jpg"></a>
+    </div>
+    <div id="photos">
+        <a href="images/house.jpg" target="_blank"><img src="images/house.jpg"></a>
+    </div>
+    <div id="photos">
+        <a href="images/house.jpg" target="_blank"><img src="images/house.jpg"></a>
+    </div>
+    <div id="photos">
+        <a href="images/house.jpg" target="_blank"><img src="images/house.jpg"></a>
+    </div>
+    <div id="photos">
+        <a href="images/house.jpg" target="_blank"><img src="images/house.jpg"></a>
+    </div>
+    <div id="photos">
+        <a href="images/house.jpg" target="_blank"><img src="images/house.jpg"></a>
+    </div>
+</div>
+<div id="btn-group">
+    <button id="contact-btn1"><a href="#contact">Contact</a></button>
+
+</div>
+</div>
+
+<!----------------------------Contact Form---------------------->
+<div id="contact">
+    <div id="contact-text">
+        <h1>Contact Us</h1>
+        <em><p>The messages will be received by the mayor.</p></em>
+    </div>
+    <form method="post">
+        <label for="name">Name</label>
+        <input type="text" id="name" placeholder="Name" required>
+        <label for="phone">Phone Number</label>
+        <input type="text" id="phone" placeholder="Phone Number" required>
+        <label for="email">Email</label>
+        <input type="text" id="email" placeholder="Email" required>
+        <textarea placeholder="Type your message here..." ></textarea>
+        <input type="submit" value="Submit">
+    </form>
+
+</div>
+
+<!------------------------------- Footer ----------------------->
+<footer>
+   <p> All rights reserved by "suburb" 2020</p>
+</footer>
+</body>
+</html>
